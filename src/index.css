@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.complete {
+  background-color: #cfc;
+}
+.complete .sortable::before {
+  content: '';
+}
+.sortable {
+  background-color: #999;
+  height: 3px;
+  margin: 2px 0 2px 8px;
+}
+.column-heading,
+.row-heading {
+  font-weight: bold;
+  margin: 0.35rem 1.5rem 0rem 1.5rem;
+}
+.row .column-heading,
+.sorter {
+  width: 170px;
+  font-size: 14px;
+}
+.row .row-heading,
+.row .column-heading:first-child {
+  font-size: 14px;
+  width: 120px;
+}
+.sorter {
+  height: 100px;
+  margin: 0.5rem 0.35rem 0rem 1.5rem;
+}
+.sorted {
+  background-color: #000;
+}
+.selected {
+  background-color: #f00;
+}
+.current {
+  background-color: #0f0;
+}
+.target::before {
+  content: '\25B6';
+  margin-left: -8px;
+  margin-top: -4px;
+  font-size: 8px;
+  float: left;
+  color: #f00;
+}
+.target {
+  background-color: #00f;
+}
+.row {
+  display: flex;
+}

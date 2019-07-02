@@ -1,33 +1,62 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div.rectangle-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+div.rectangle{
+  background-color: aquamarine;
+  padding: 1rem;
+  margin: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.complete {
+  /*background-color: #cfc;*/
+}
+.complete .sortable::before {
+  content: '';
+}
+.sortable {
+  background-color: #999;
+  height: 2px;
+  margin: 2px 0 2px 8px;
+}
+.column-heading,
+.row-heading {
+  font-weight: bold;
+  margin: 0.67em 0;
+}
+.row .column-heading,
+.sorter {
+  width: 120px;
+  font-size: 14px;
+}
+.row .row-heading,
+.row .column-heading:first-child {
+  font-size: 14px;
+  width: 100px;
+}
+.sorter {
+  height: 100px;
+}
+.sorted {
+  background-color: #000;
+}
+.selected {
+  /*background-color: #f00;*/
+}
+.current {
+  /*background-color: #0f0;*/
+}
+.target::before {
+  content: '\25B6';
+  margin-left: -8px;
+  margin-top: -4px;
+  font-size: 8px;
+  float: left;
+  color: #f00;
+}
+.target {
+  /*background-color: #00f;*/
+}
+.row {
+  display: flex;
 }
