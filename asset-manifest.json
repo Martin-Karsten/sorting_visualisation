@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Martin-Karsten/sorting_visualisation/static/css/main.59c48cc3.chunk.css",
-    "main.js": "/Martin-Karsten/sorting_visualisation/static/js/main.8d8b8496.chunk.js",
-    "main.js.map": "/Martin-Karsten/sorting_visualisation/static/js/main.8d8b8496.chunk.js.map",
-    "runtime~main.js": "/Martin-Karsten/sorting_visualisation/static/js/runtime~main.3b49c278.js",
-    "runtime~main.js.map": "/Martin-Karsten/sorting_visualisation/static/js/runtime~main.3b49c278.js.map",
-    "static/js/2.ecea7d56.chunk.js": "/Martin-Karsten/sorting_visualisation/static/js/2.ecea7d56.chunk.js",
-    "static/js/2.ecea7d56.chunk.js.map": "/Martin-Karsten/sorting_visualisation/static/js/2.ecea7d56.chunk.js.map",
-    "index.html": "/Martin-Karsten/sorting_visualisation/index.html",
-    "precache-manifest.f1d09a573c5b8978ca04c2c3203798bf.js": "/Martin-Karsten/sorting_visualisation/precache-manifest.f1d09a573c5b8978ca04c2c3203798bf.js",
-    "service-worker.js": "/Martin-Karsten/sorting_visualisation/service-worker.js",
-    "static/css/main.59c48cc3.chunk.css.map": "/Martin-Karsten/sorting_visualisation/static/css/main.59c48cc3.chunk.css.map"
+    "main.css": "/sorting_visualisation/static/css/main.59c48cc3.chunk.css",
+    "main.js": "/sorting_visualisation/static/js/main.f196a6c8.chunk.js",
+    "main.js.map": "/sorting_visualisation/static/js/main.f196a6c8.chunk.js.map",
+    "runtime~main.js": "/sorting_visualisation/static/js/runtime~main.909c0326.js",
+    "runtime~main.js.map": "/sorting_visualisation/static/js/runtime~main.909c0326.js.map",
+    "static/js/2.ecea7d56.chunk.js": "/sorting_visualisation/static/js/2.ecea7d56.chunk.js",
+    "static/js/2.ecea7d56.chunk.js.map": "/sorting_visualisation/static/js/2.ecea7d56.chunk.js.map",
+    "index.html": "/sorting_visualisation/index.html",
+    "precache-manifest.4d017d370ac4c9e0e4dfe90869d0e33e.js": "/sorting_visualisation/precache-manifest.4d017d370ac4c9e0e4dfe90869d0e33e.js",
+    "service-worker.js": "/sorting_visualisation/service-worker.js",
+    "static/css/main.59c48cc3.chunk.css.map": "/sorting_visualisation/static/css/main.59c48cc3.chunk.css.map"
   }
 }
